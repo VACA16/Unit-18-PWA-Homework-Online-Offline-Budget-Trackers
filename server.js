@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/budget", {
+mongoose.connect("https://smudal201912fsfpt.slack.com/archives/CPCMRJKLY/p1589031695004300", {
     useNewUrlParser: true,
     useFindAndModify: false
 });
